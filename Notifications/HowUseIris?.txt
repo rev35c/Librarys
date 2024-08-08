@@ -1,4 +1,4 @@
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny-yz/Librarys/main/Notifications/IrisNotify.luau"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny-yz/Librarys/main/Notifications/IrisNotify.lua"))()
 
 Notification.Notify("Yeeet", "yeet", "rbxasset://textures/ui/GuiImagePlaceholder.png", {
     Duration = 2,       
