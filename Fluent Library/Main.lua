@@ -514,7 +514,7 @@ local aa = {
         local c, d, e, f, g = b(8)
         return {
             Close = "rbxassetid://9886659671",
-            Min = "rbxassetid://9886659276",
+            Min = "rbxassetid://0",
             Max = "rbxassetid://0",
             Restore = "rbxassetid://0"
         }
