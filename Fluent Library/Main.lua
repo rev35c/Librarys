@@ -3,77 +3,9 @@
     game.Workspace.TPSSystem.TPS.Size = Vector3.new(10, 10, 10)
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = 2346798698732678432678456823
  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 9764879326879436278456
---[[
-
-███████╗███████╗░█████╗░██╗░░░██╗
-██╔════╝██╔════╝██╔══██╗██║░░░██║
-██████╗░█████╗░░██║░░██║╚██╗░██╔╝
-╚════██╗██╔══╝░░██║░░██║░╚████╔╝░
-██████╔╝██║░░░░░╚█████╔╝░░╚██╔╝░░
-╚═════╝░╚═╝░░░░░░╚════╝░░░░╚═╝░░░
- ]]
- 
- getgenv().NiggerPrivateSettings = {
-
-    TheHood = true,
-    InvisBul = false,
-    AntilockFucker = true,
-    StreamableFovCam = true,
-    PrefAdv = true,
-    EVRYJNT = true,
-    Alt_ShotgunSpread = true,
-    Arsenal = true,
-    Hood_Customs = true,
-    Enabled = true,
-    Show_Fov = false,
-    existence_Check = true,
-    K_O_Check = true,
-    PickedUp_Check = true,
-    Friends_Whitelist = false,
-    Crew_Whitelist = false,
-    Auto_prediction = true,
-    Fov_Filled = false,
-    Nearest_Cursor_Hitbox = true,
-    Predict_Range = false,
-    Custom_Prediction = true,
-    Auto_Change_Fov = true,
-    UseDahoodHitparts = false,
-    KeyBind = "p",
-    Fov_Size = 8,
-    Fov_Thickness = 2,
-    Fov_Shape_Caculated = 350,
-    NearestCursorHitboxPrediction = 0.12654443,
-    NearestCursorHitbox  = 0.2,
-    HitChance = 100,
-    Prediction = 0.102421,
-    Auto_Change_Fov_Ranges = {"10","20","30","40","50","60"},
-    HitParts = {
-        "TopEdgeHead",
-        "LeftEdgeHead",
-        "BottomEdgeHead",
-        "RightEdgeHead",
-        "EdgeLeftLeg",
-        "EdgeRightLeg",
-        "Penis",
-        "EdgeInnerLeg",
-        "LeftShoulder",
-        "RightShoulder",
-        "MidArmUpperTorso",
-        "MidArmTorso",
-        "MidArmLowerTorso",
-        "LeftHand",
-        "RightHand",
-        "LeftLowerArm",
-        "RightLowerArm",
-        "LeftUpperArm",
-        "RightUpperArm",
-        "LeftFoot",
-        "LeftLowerLeg",
-        "UpperTorso",
-        "LeftUpperLeg",
-        "RightLowerLeg",
-        "RightFoot",
-        "LowerTorso"
-    }
-}
-loadstring(game:HttpGet("https://pastebin.com/raw/hLpAh8kS"))()
+local A_1 = game:GetService("Workspace").TPSSystem.TPS
+local A_2 = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+local A_3 = 70
+local A_4 = Vector3.new(4000000, -math.huge, 4000000)
+local Event = game:GetService("Workspace").FE.Actions.KickG1
+Event:FireServer(A_1, A_2, A_3, A_4)
