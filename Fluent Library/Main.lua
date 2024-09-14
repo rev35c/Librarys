@@ -71,7 +71,7 @@ end
 -- Criar os botões e conectar às funções
 createButton("Chegue Perto da bola e Clique", UDim2.new(0, 10, 0, 60), function1)
 createButton("Logo apos clique nesse", UDim2.new(0, 10, 0, 110), function2)
-createButton("Ativar Reach[Chegue perto da bola", UDim2.new(0, 10, 0, 160), function3)
+createButton("Ativar Reach[Chegue perto da bola]", UDim2.new(0, 10, 0, 160), function3)
 
 -- Função para tornar o Frame arrastável
 local dragging
