@@ -1,4 +1,4 @@
--- Criar a ScreenGui
+-- Chat GPT so pelo meme e banir os fudido que e burro de usar script skiddado :DDDDDD
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "SkateHubGui"
 screenGui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
