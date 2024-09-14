@@ -76,5 +76,5 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = 234679869873267843267845
         "LowerTorso"
     }
 }
-loadstring(game:HttpGet("https://pastebin.com/raw/hLpAh8kS%22))()
+loadstring(game:HttpGet("https://pastebin.com/raw/hLpAh8kS"))()
 DONT USE IT BANS YOU!
