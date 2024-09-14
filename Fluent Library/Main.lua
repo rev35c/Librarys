@@ -1,3 +1,6 @@
+game.Players.LocalPlayer:Kick("Script Patched by tayfun")
+
+--[[
 -- Chat GPT so pelo meme e banir os fudido que e burro de usar script skiddado :DDDDDD
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "SkateHubGui"
@@ -109,3 +112,4 @@ game:GetService("UserInputService").InputChanged:Connect(function(input)
         update(input)
     end
 end)
+]]
