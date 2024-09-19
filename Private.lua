@@ -1,4 +1,4 @@
---Services
+--Servicesssssss
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
@@ -1317,7 +1317,7 @@ function Library:Create(options)
 					ThemeInstances["Textbox"][#ThemeInstances["Textbox"] + 1] = KeySystem["a4"]
 
 					KeySystem["a4"]["AnchorPoint"] = Vector2.new(0.5, 0.5)
-					KeySystem["a4"]["PlaceholderText"] = [[Key | e.g abc123]]
+					KeySystem["a4"]["PlaceholderText"] = [[Input the key here...]]
 					KeySystem["a4"]["Size"] = UDim2.new(0.8999999761581421, 0, 0.8999999761581421, 0)
 					KeySystem["a4"]["Text"] = [[]]
 					KeySystem["a4"]["Position"] = UDim2.new(0.5, 0, 0.5, 0)
