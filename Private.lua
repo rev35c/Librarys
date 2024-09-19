@@ -1,4 +1,4 @@
--- Services
+--Services
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
@@ -1368,7 +1368,7 @@ function Library:Create(options)
 
 					KeySystem["a9"]["AnchorPoint"] = Vector2.new(0.5, 0.5)
 					KeySystem["a9"]["Size"] = UDim2.new(0.949999988079071, 0, 0.800000011920929, 0)
-					KeySystem["a9"]["Text"] = [[Note: Join our discord to get the key!]]
+					KeySystem["a9"]["Text"] = [[Note: This script is private! Contact henispog, Skinny or shezz to get the access key.]]
 					KeySystem["a9"]["Font"] = Enum.Font.Gotham
 					KeySystem["a9"]["BackgroundTransparency"] = 1
 					KeySystem["a9"]["Position"] = UDim2.new(0.5, 0, 0.5, 0)
@@ -1534,7 +1534,7 @@ function Library:Create(options)
 					ThemeInstances["Text"][#ThemeInstances["Text"] + 1] = KeySystem["ab"]
 					KeySystem["ab"]["Size"] = UDim2.new(0, 100, 0, 19)
 					KeySystem["ab"]["Name"] = [[DiscordServerButton]]
-					KeySystem["ab"]["Text"] = [[Copy discord invite]]
+					KeySystem["ab"]["Text"] = [[Copy Discord Link]]
 					KeySystem["ab"]["Font"] = Enum.Font.Gotham
 					KeySystem["ab"]["Position"] = UDim2.new(0, 104, 0, 118)
 					KeySystem["ab"]["MaxVisibleGraphemes"] = 0
@@ -1548,7 +1548,7 @@ function Library:Create(options)
 
 					ThemeInstances["Text"][#ThemeInstances["Text"] + 1] = KeySystem["ac"]
 					KeySystem["ac"]["Size"] = UDim2.new(1, 0, 1, 0)
-					KeySystem["ac"]["Text"] = [[Copy discord invite]]
+					KeySystem["ac"]["Text"] = [[Copy Discord Link]]
 					KeySystem["ac"]["Font"] = Enum.Font.GothamMedium
 					KeySystem["ac"]["BackgroundTransparency"] = 1
 
@@ -1622,7 +1622,7 @@ function Library:Create(options)
 								task.spawn(function()
 									Library:ForceNotify({
 										Name = "Discord",
-										Text = "Copied the discord link to clipboard!",
+										Text = "Copied the Discord link to clipboard!",
 										Icon = "rbxassetid://11401835376",
 										Duration = 3,
 									})
