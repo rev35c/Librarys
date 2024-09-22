@@ -2365,3 +2365,82 @@ function SkinnyLib:Start(GuiConfig)
     return Tabs
 end
 return SkinnyLib
+--[[
+--Usage
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny-yz/Librarys/refs/heads/main/InterfaceM.lua"))()
+
+local Window = Library:Start({
+  ["Name"] = "Aurora X | TPS: Street Soccer",
+  ["SaveFolder"] = "Aurora X"
+})
+
+local Tab = Window:MakeTab("Example")
+
+local sectionTab = Tab:Section({
+  Title = "Tab",
+  Content = "Click"
+})
+
+sectionTab:Paragraph({
+  Title = "This is a Paragraph", 
+  Content = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+})
+
+sectionTab:Seperator("Separator")
+
+sectionTab:Toggle({
+Title = "Toggle",
+Content = "Description",
+Default = false, -- true or false
+Callback = function(Value)
+    warn("Value")
+end})
+
+sectionTab:Button({
+Title = "Button", --title
+Content = "This is a good button", -- description
+Callback = function(Value)
+  print("Value")
+end})  
+
+sectionTab:Dropdown({
+Title = "WalkSpeed Selector", --title
+Multi = false, -- define if multiple or no
+Options = {"100", "200", "300", "400", "500"}, -- options
+Default = {"300"}, -- default in dropdown
+PlaceHolderText = "Select Options",--text exibid if nil option has enabled
+Callback = function(Value)
+   warn("Value")
+end})
+
+sectionTab:Slider({
+Title = "Slider",  -- title
+Content = "Adjust your slider",  -- Description
+Min = 50,  -- minimal value
+Max = 120,  -- max value
+Increment = 1,  -- increments  (1 por arrasto,2 e etc)
+Default = 100,  -- default value
+Callback = function(Value)
+    print("Value")
+end})
+
+sectionTab:TextInput({
+Title = "TextBox",  -- Título do campo de texto
+Content = "Please enter your username",  -- Texto explicativo abaixo do título
+PlaceHolderText = "Enter your username...",  -- Placeholder mostrado quando o campo estiver vazio
+ClearTextOnFocus = true,  -- Define se o texto será limpo quando o campo for focado
+Default = "Player123",  -- Valor padrão exibido no campo de texto
+Callback = function(Value)
+      print("Input value: " .. Value)  -- Imprime o valor inserido no console
+end})
+
+
+local Tab1 = Window:MakeTab("Tab2")
+local Tab2 = Window:MakeTab("Tab3")
+local Tab3 = Window:MakeTab("Tab4")
+local Tab4 = Window:MakeTab("Tab5")
+local Tab5 = Window:MakeTab("Tab6")
+local Tab6 = Window:MakeTab("Tab7")
+local Tab7 = Window:MakeTab("Tab8")
+]]
+--This is a example usage, ok?
