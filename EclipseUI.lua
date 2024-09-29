@@ -451,16 +451,16 @@ end
 
 function SkinnyLib:Start(GuiConfig)
     local GuiConfig = GuiConfig or {}
-    GuiConfig.Name = GuiConfig.Name or "Speed Hub"
+    GuiConfig.Name = GuiConfig.Name or "Skinny Hub"
     GuiConfig.Description = GuiConfig.Description or ""
-    GuiConfig["Info Color"] = GuiConfig["Info Color"] or Color3.fromRGB(255, 0, 0)
+    GuiConfig["Info Color"] = GuiConfig["Info Color"] or Color3.fromRGB(232, 156, 24)
     GuiConfig["Logo Info"] = GuiConfig["Logo Info"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game:GetService("Players").LocalPlayer.UserId .."&width=420&height=420&format=png"
 	GuiConfig["Logo Player"] = GuiConfig["Logo Player"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game:GetService("Players").LocalPlayer.UserId .."&width=420&height=420&format=png"
 	GuiConfig["Name Info"] = GuiConfig["Name Info"] or HideUsername(tostring(game:GetService("Players").LocalPlayer.Name))
     GuiConfig["Name Player"] = GuiConfig["Name Player"] or HideUsername(tostring(game:GetService("Players").LocalPlayer.Name))
     GuiConfig["Info Description"] = GuiConfig["Info Description"] or ""
 	GuiConfig["Tab Width"] = GuiConfig["Tab Width"] or 135
-	GuiConfig["Color"] = GuiConfig["Color"] or Color3.fromRGB(255, 0, 0)
+	GuiConfig["Color"] = GuiConfig["Color"] or Color3.fromRGB(232, 156, 24)
 	GuiConfig["CloseCallBack"] = GuiConfig["CloseCallBack"] or function() end
     GuiConfig["SaveFolder"] = GuiConfig["SaveFolder"] or false
     local Flags = SkinnyLib and SkinnyLib.Flags or {}
