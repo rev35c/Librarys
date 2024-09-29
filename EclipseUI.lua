@@ -451,8 +451,8 @@ end
 
 function SkinnyLib:Start(GuiConfig)
     local GuiConfig = GuiConfig or {}
-    GuiConfig.Name = GuiConfig.Name or "Skinny Hub"
-    GuiConfig.Description = GuiConfig.Description or ""
+    GuiConfig.Name = GuiConfig.Name or "Eclipse.lol | TPS: Street Soccer"
+    GuiConfig.Description = GuiConfig.Description or "v1"
     GuiConfig["Info Color"] = GuiConfig["Info Color"] or Color3.fromRGB(232, 156, 24)
     GuiConfig["Logo Info"] = GuiConfig["Logo Info"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game:GetService("Players").LocalPlayer.UserId .."&width=420&height=420&format=png"
 	GuiConfig["Logo Player"] = GuiConfig["Logo Player"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game:GetService("Players").LocalPlayer.UserId .."&width=420&height=420&format=png"
