@@ -632,7 +632,7 @@ function SkinnyLib:Start(GuiConfig)
     MinimizeButton.Size = UDim2.fromOffset(35, 35)
     MinimizeButton.Position = UDim2.fromScale(0.10, 0.30)
     MinimizeButton.BackgroundTransparency = 1
-    MinimizeButton.Image = "rbxassetid://16022917595"
+    MinimizeButton.Image = "rbxassetid://136185511841795"
     MinimizeButton.BackgroundColor3 = GuiConfig["Color"]
     MinimizeButton.AutoButtonColor = false
     MinimizeButton.Draggable = true
