@@ -133,7 +133,7 @@ ClickFrame.Parent = ClickGui
 function CircleClick(ClickFrame, X, Y)
 	spawn(function()
 		local Circle = Instance.new("ImageLabel")
-		Circle.Image = "rbxassetid://266543268"
+		Circle.Image = "rbxassetid://0"
 		Circle.ImageColor3 = Color3.fromRGB(255, 255, 255)
 		Circle.ImageTransparency = 0.8
 		Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
