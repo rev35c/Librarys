@@ -1,4 +1,5 @@
 
+
 local a;
 a = {cache={},load=function(b)
 	if not a.cache[b] then
@@ -368,7 +369,7 @@ do
 			local g = {__type="Button",Title=(f.Title or "Button"),Desc=(f.Desc or nil),Callback=(f.Callback or function()
 			end),UIElements={}};
 			g.ButtonFrame = a.load("h")({Title=g.Title,Desc=g.Desc,Parent=f.Parent,Theme=f.Theme,TextOffset=20,Hover=true});
-			g.UIElements.ButtonIcon = c("ImageLabel", {Image=b.Icon("fingerprint"),BackgroundTransparency=1,Parent=g.ButtonFrame.UIElements.Main,Size=UDim2.new(0, 20, 0, 20),AnchorPoint=Vector2.new(1, 0.5),Position=UDim2.new(1, 0, 0.5, 0),ImageColor3=Color3.fromHex(f.Theme.Text),ThemeTag={ImageColor3="Text"}});
+			g.UIElements.ButtonIcon = c("ImageLabel", {Image=b.Icon("mouse-pointer-click"),BackgroundTransparency=1,Parent=g.ButtonFrame.UIElements.Main,Size=UDim2.new(0, 20, 0, 20),AnchorPoint=Vector2.new(1, 0.5),Position=UDim2.new(1, 0, 0.5, 0),ImageColor3=Color3.fromHex(f.Theme.Text),ThemeTag={ImageColor3="Text"}});
 			g.ButtonFrame.UIElements.Main.MouseButton1Click:Connect(function()
 				task.spawn(function()
 					pcall(g.Callback);
