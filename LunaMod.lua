@@ -1,4 +1,27 @@
+--[[
 
+Luna Interface Suite
+by Nebula Softworks
+
+Main Credits
+
+Hunter (Nebula Softworks) | Designing And Programming | Main Developer
+JustHey (Nebula Softworks) | Configurations, Bug Fixing And More! | Co Developer
+Throit | Color Picker
+Wally | Dragging And Certain Functions
+Sirius | PCall Parsing, Notifications, Slider And Home Tab
+Luna Executor | Original UI
+
+
+Extra Credits / Provided Certain Elements
+
+Pookie Pepelss | Bug Tester
+Inori | Configuration Concept
+Latte Softworks and qweery | Lucide Icons And Material Icons
+kirill9655 | Loading Circle
+Deity/dp4pv/x64x70 | Certain Scripting and Testing ig
+
+]]
 
 local Release = ""
 
@@ -1813,7 +1836,7 @@ local function unpackt(array : table)
 end
 
 -- Interface Management
-local LunaUI = isStudio and script.Parent:WaitForChild("Luna UI") or game:GetObjects("rbxassetid://86467455075715")[1]
+local LunaUI = isStudio and script.Parent:WaitForChild("Luna UI") --or game:GetObjects("rbxassetid://86467455075715")[1]
 
 local SizeBleh = nil
 
