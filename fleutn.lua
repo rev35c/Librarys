@@ -1415,10 +1415,10 @@ end
 
 local Components = {
 	Assets = {
-		Close = "rbxassetid://10734896206",
-		Min = "rbxassetid://9886659276",
-		Max = "rbxassetid://9886659406",
-		Restore = "rbxassetid://9886659001",
+		Close = "rbxassetid://117092788524245",
+		Min = "rbxassetid://131066239924484",
+		Max = "rbxassetid://112056408984458",
+		Restore = "rbxassetid://112056408984458",
 	},
 }
 
