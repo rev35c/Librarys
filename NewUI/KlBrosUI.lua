@@ -1,7 +1,7 @@
 -- UI Remake
 
 local Repo = "https://raw.githubusercontent.com/Skinny-yz/Another";
-local Setup = loadstring(game:HttpGet(Repo .. "refs/heads/main/Module"))();
+local Setup = loadstring(game:HttpGet(Repo .. "/refs/heads/main/Module"))();
 local InputService = Setup:InputRecorder();
 local FileService = Setup:File();
 Setup:Basics();
