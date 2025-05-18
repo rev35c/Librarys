@@ -1,22 +1,7 @@
-
-
 local tweenservice = 	game:GetService("TweenService")
-local https = 			game:GetService("HttpService")
-local runservice =		game:GetService("RunService")
-local players =         game:GetService("Players"):GetPlayers()
-local textservice =     game:GetService('TextService')
-local player =          game:GetService('Players')
 local coregui =         game:GetService("CoreGui")
-local textservice =     game:GetService('TextService')
-
 local Loader =          game:GetObjects("rbxassetid://110221114597158")[1]
-
-local sharedModule = {}
-
-
-local loaded = false
 local syde = {
-
 	theme = {
 		['Accent'] = Color3.fromRGB(255, 255, 255);
 		['HitBox'] = Color3.fromRGB(255, 255, 255);
@@ -28,20 +13,16 @@ local syde = {
 	ParentOverride = nil;
 	Build = 'Lunar'
 }
-
 function syde:HidePlaceHolder(instance, placeholder, recursive)
 	if typeof(instance) ~= "Instance" or type(placeholder) ~= "string" then
 		warn("[removeplaceholder] Invalid input: Expected (Instance, string)")
 		return
 	end
-
 	local target = instance:FindFirstChild(placeholder)
-
 	if not target then
 		warn(("[removeplaceholder] Placeholder '%s' not found in instance '%s'"):format(placeholder, instance.Name))
 		return
 	end
-
 	if target:IsA("GuiObject") then
 		target.Visible = false
 	else
